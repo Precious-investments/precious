@@ -532,9 +532,9 @@ footer {
     .nav-container {
         gap: 7px;
         position: relative;
-        top: -45px;
+        top: -35px;
         left: -10px;
-        background-color:  transparent;
+        background-color:  green;
     }
     .nav-link {
         font-size: 0.8rem;

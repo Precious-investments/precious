@@ -534,7 +534,7 @@ footer {
         position: relative;
         top: -65px;
         left: -10px;
-        background-color: green;
+        background-color: transparent;
     }
     .nav-link {
         font-size: 0.8rem;

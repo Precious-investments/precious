@@ -362,14 +362,14 @@ footer {
 
     .logo{
         position: relative;
-        left: -155px;
+        left: -150px;
         top: 0px;
     }
     
     .login-icon{
         position:relative;
         top: -136px;
-        left: 165px;
+        left: 155px;
     }
     
     .watermark h1 {

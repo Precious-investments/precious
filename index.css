@@ -533,7 +533,7 @@ footer {
         gap: 7px;
         position: relative;
         top: -65px;
-        left: 2px;
+        left: -10px;
         background-color:  transparent;
     }
     .nav-link {
@@ -543,6 +543,8 @@ footer {
     .btn {
         padding: 5px 10px;
         font-size: 0.8rem;
+        position: absolute;
+        left: 260px;
     }
     #use {
         font-size: 18px;

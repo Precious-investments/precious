@@ -532,7 +532,7 @@ footer {
     .nav-container {
         gap: 7px;
         position: relative;
-        top: -65px;
+        top: -75px;
         left: -10px;
         background-color:  transparent;
     }
@@ -544,7 +544,7 @@ footer {
         padding: 5px 10px;
         font-size: 0.8rem;
         position: absolute;
-        left: 260px;
+        left: 270px;
     }
     #use {
         font-size: 18px;

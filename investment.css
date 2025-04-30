@@ -543,7 +543,7 @@ footer {
 
     .logo{
         position: relative;
-        left: 190px;
+        left: 170px;
         top: 5px;
     }
     
@@ -554,7 +554,7 @@ footer {
     }
 
     .watermark h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
     
     .plan-card {

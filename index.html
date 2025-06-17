@@ -18,7 +18,7 @@
     <title>Precious</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="transparent.png" type="image/x-icon">
-    <script src="login.js"></script>
+   
 </head>
 
 <body>
@@ -30,10 +30,7 @@
                 <a class="nav-link" href="about.html">About</a>
                 <a class="nav-link" href="investment.html">Investments</a>
             </div>
-            <div class="nav-buttons">
-                <button class="btn" onclick="logout()">Logout</button>
-                <a href="login.html"><img class="login-icon" src="log.png" alt="Login"></a>
-            </div>
+            
         </div>
     </nav>     
     
@@ -122,32 +119,7 @@
         </div>
     </footer>
 
-    <script>
-        // Check if user is logged in
-        if (!localStorage.getItem('loggedInUser')) {
-            // Redirect to login page if not logged in
-            window.location.href = 'login.html';
-        }
-        
-        // Optional: Add logout functionality
-        function logout() {
-            localStorage.removeItem('loggedInUser');
-            window.location.href = 'login.html';
-        }
 
-        // Mobile menu toggle
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            document.querySelector('.nav-container').classList.toggle('active');
-        });
-
-        localStorage.setItem("use","alica");
-
-        const use = localStorage.getItem("username");
-        
-        document.getElementById("use").innerText = use;
-
-
-    </script>
 </body>
 </html>
 
